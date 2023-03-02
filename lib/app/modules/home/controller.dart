@@ -32,9 +32,7 @@ class HomeController extends GetxController {
   }
 
   @override
-  void onClose() {
-    super.onClose();
-  }
+  void onClose() {}
 
   void changeTabIndex(int index) {
     tabIndex.value = index;
